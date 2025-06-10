@@ -110,7 +110,7 @@ Chat_With_Ollama/
 
 1. **Clone the repository:**
    ```sh
-   git clone <your-repo-url>
+   git clone https://github.com/zuberkhan01st/Chat_With_Ollama.git
    cd Chat_With_Ollama
    ```
 
