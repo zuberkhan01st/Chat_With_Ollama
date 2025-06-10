@@ -11,24 +11,6 @@
 
 ## Screenshots
 
-### How to Add Your Own Screenshots
-
-1. Create an `images` folder in your repository (already done for you)
-2. Take screenshots of your application:
-   - Initial connection screen
-   - Chat interface with user message
-   - LLM response received
-3. Save these screenshots in the `images` folder
-4. Reference them in README.md using relative paths like this:
-
-```markdown
-![Connection Screen](./Public/Image3.png)
-![Chat Interface](./Public/Image1.png)
-![LLM Response](./Public/Image2.png)
-```
-
-Example result (sample images will display here once you add them):
-
 ### Connection Screen
 ![Connection Screen](./Public/Image3.png)
 *Initial screen where the user connects to the chat server*
