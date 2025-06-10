@@ -1,9 +1,5 @@
 # Chat With Ollama (Real-Time Chat Application with Local LLM Integration)
 
-## 21 Spheres Generative AI Internship Technical Assignment
-
-This project is an implementation of a real-time, multi-user chat application powered by a local Large Language Model (LLM) using Ollama. The system features asynchronous communication via Socket.IO, a FastAPI backend, and a Streamlit frontend, with the entire solution containerized using Docker.
-
 ## Features
 
 - **Real-time messaging** with Socket.IO for asynchronous communication
@@ -15,16 +11,34 @@ This project is an implementation of a real-time, multi-user chat application po
 
 ## Screenshots
 
+### How to Add Your Own Screenshots
+
+1. Create an `images` folder in your repository (already done for you)
+2. Take screenshots of your application:
+   - Initial connection screen
+   - Chat interface with user message
+   - LLM response received
+3. Save these screenshots in the `images` folder
+4. Reference them in README.md using relative paths like this:
+
+```markdown
+![Connection Screen](./Public/Image3.png)
+![Chat Interface](./Public/Image1.png)
+![LLM Response](./Public/Image2.png)
+```
+
+Example result (sample images will display here once you add them):
+
 ### Connection Screen
-![Connection Screen](https://i.imgur.com/JKWS8jx.png)
+![Connection Screen](./Public/Image3.png)
 *Initial screen where the user connects to the chat server*
 
 ### Chat Interface
-![Chat Interface](https://i.imgur.com/OcKvDsl.png)
+![Chat Interface](./Public/Image1.png)
 *User sending a message and receiving a response from the LLM*
 
 ### LLM Response
-![LLM Response](https://i.imgur.com/K1IPDLG.png)
+![LLM Response](./Public/Image2.png)
 *The LLM generates thoughtful responses in real-time*
 
 ## Architecture
