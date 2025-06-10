@@ -34,10 +34,10 @@ def send_message_http(user, message):
 # UI Layout
 st.subheader("Connection Status")
 if test_connection():
-    st.success("✅ Backend server is running")
+    st.success("Backend server is running")
     server_connected = True
 else:
-    st.error("❌ Cannot connect to backend server")
+    st.error("Cannot connect to backend server")
     server_connected = False
 
 if server_connected:
